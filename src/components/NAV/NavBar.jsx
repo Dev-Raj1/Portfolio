@@ -5,7 +5,7 @@ import Styles from "./NavBar.module.css";
 const NavBar = () => {
 
   const ScrollToProject = () => {
-    const knowledgeSection = document.getElementById("Knowledge_knowledge__zIFNq");
+    const knowledgeSection = document.getElementById("Knowledge_knowledge__jWIe9");
       if (knowledgeSection) {
         knowledgeSection.scrollIntoView({ behavior: "smooth" });
       }
