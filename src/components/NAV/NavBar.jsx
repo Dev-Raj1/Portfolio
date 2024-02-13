@@ -1,11 +1,11 @@
 import React from "react";
 import Styles from "./NavBar.module.css";
-
+import knowledgeStyles from '../Knowledge/Knowledge.module.css'
 
 const NavBar = () => {
 
   const ScrollToProject = () => {
-    const knowledgeSection = document.getElementById("Knowledge_knowledge__jWIe9");
+    const knowledgeSection = document.getElementById(knowledgeStyles.knowledge);
       if (knowledgeSection) {
         knowledgeSection.scrollIntoView({ behavior: "smooth" });
       }
