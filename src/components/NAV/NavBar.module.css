@@ -1,0 +1,108 @@
+
+#NavHead{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    
+}
+ .anchorTags{
+    background: none;
+    border: none;
+    text-decoration: none;
+    color:#474F7A;
+}
+.anchorTags:hover{
+   cursor: pointer;
+}
+#NavContainer{
+    background-color: white;
+}
+#NavItems{
+    display:flex;
+    justify-content: space-between;
+}
+
+#Name{
+    font-family: 'Tourney', sans-serif;
+    color: #474F7A;
+    
+}
+#NavLinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#mainSection{
+   
+    
+}
+
+/* Android Devices */
+
+@media (min-width:320px) and (max-width:425px) {
+    #Name{
+        font-family: 'Tourney', sans-serif;
+        font-size:1.2rem;
+        padding-left: 1rem;
+        font-weight: bolder;
+    }
+    #NavLinks{
+        
+        font-weight: 500;
+        gap: 0.5rem;
+        padding-right: 1.5rem;
+       
+        
+    }
+    #NavItems{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    
+}
+
+/* Tablet Devices */
+@media (min-width:425px) and (max-width:768px){
+    #Name{
+        font-family: 'Tourney', sans-serif;
+        font-size:1.5rem;
+        padding-left: 1rem;
+        font-weight: bolder;
+    }
+    #NavItems{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    #NavLinks{
+        font-weight: 500;
+        gap: 0.5rem;
+        padding-right: 1.5rem;
+        
+    }
+}
+
+/* Laptop and Windows */
+@media (min-width:768px) {
+    #Name{
+        font-family: 'Tourney', sans-serif;
+        font-size:2rem;
+        padding-left: 1rem;
+        font-weight: bolder;
+    }
+    #NavItems{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    #NavLinks{
+        font-weight: 500;
+        gap: 2rem;
+        padding-right: 1.5rem;
+        
+    }
+    .anchorTags{
+        font-size: 1.25rem;
+        font-family: 'Lora', serif;
+        
+    }
+}

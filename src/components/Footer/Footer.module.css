@@ -1,0 +1,43 @@
+
+
+#footerHolder{
+    background-color:#FFD0EC;
+    display: flex;
+    justify-content: center;
+    
+}
+#quote{
+    color: #474F7A;
+    font-size: large;
+    font-weight: bold;
+    border: 1px solid #474F7A;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+#quote:hover{
+    background-color: #474F7A;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+@media (min-width:320px) and (max-width:768px) {
+    #footer{
+        margin-bottom: 5rem;
+    }
+    #footerHolder{
+      padding-top: 5%;
+      padding-bottom: 5%;
+        
+    }
+}
+
+@media (min-width:769px)  {
+    #footerHolder{
+      padding-top: 7%;
+      padding-bottom: 7%;
+        
+    }
+}

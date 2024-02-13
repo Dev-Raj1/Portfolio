@@ -1,0 +1,97 @@
+.introDescription{
+    font-weight: bold;
+
+}
+
+
+#AnimateHolder{
+    background: rgb(53,21,93);
+    background: linear-gradient(90deg, rgba(53,21,93,1) 0%, rgba(14,99,116,1) 100%);
+}
+
+#svgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#introGrid{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto auto;
+    font-family: 'Play', sans-serif;
+    padding-left: 10%;
+    padding-right: 7%;
+    padding-top: 12%;
+    padding-bottom: 18%;
+    color:#8CABFF;
+   
+}
+
+/* Android Devices */
+@media (min-width:320px) and (max-width:425px) {
+    #currentWork{
+        font-size: 0.85rem;
+        font-weight: 600;
+    }
+    #svgContainer svg{
+        height: 15rem;
+        width: 15rem;
+    }
+    #introGrid{
+        padding-bottom: 40%;
+    }
+    
+}
+/* Tablet Devices */
+
+@media (min-width:425px) and (max-width:768px) {
+    #currentWork{
+        font-size: 0.85rem;
+        font-weight: 600;
+    }
+    #svgContainer svg{
+        height: 15rem;
+        width: 15rem;
+        
+    }
+    #introGrid{
+        padding-top: 26%;
+        padding-bottom: 40%;
+    }
+}
+/* Laptop and Widnows */
+@media (min-width:769px){
+    #introContainer{
+        margin-left: 3rem;
+        width: 65%;
+        
+    }
+    
+    .introDescription{
+        font-size: 1.5rem;
+        font-weight: bold;
+        
+    }
+    #currentWork{
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+    #svgContainer svg{
+        height: 20rem;
+        width: 20rem;
+    }
+   
+}
+/* Custom media queries */
+@media (min-width:1120px){
+    #svgContainer svg{
+        height: 20rem;
+        width: 20rem;
+    }
+    .introDescription{
+        font-size: 2.3rem;
+        font-weight: bold;
+    }
+}

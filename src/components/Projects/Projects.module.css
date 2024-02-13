@@ -1,0 +1,31 @@
+
+#projectContainer{
+    padding: 1rem; 
+    background-color:#FFD0EC;
+}
+#projectFlex{
+    display: flex;
+    gap:1.5rem;
+}
+.projectHead{
+    color: #474F7A;
+}
+
+/* Medai Queries */
+@media (min-width:320px) and (max-width:768px)  {
+    
+    #projectFlex{
+        flex-direction:column;
+    }
+}
+
+@media (min-width:769px)  {
+    #projectContainer{
+        margin-left: 13%; 
+    
+    }
+    #projectFlex{
+        flex-direction: row;
+        
+    }
+}

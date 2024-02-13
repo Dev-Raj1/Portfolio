@@ -1,0 +1,120 @@
+#knowledge{
+    padding-top: 4rem;
+}
+
+/* Default Css */
+.skills{
+    font-size: 0.7rem;
+    color: #FFD0EC;
+    text-align: center;
+    border: 2px solid #FFD0EC;
+    padding: 0.4rem;
+    border-radius: 0.2rem;
+}
+#knowledgeContainer{
+    display: flex;
+    flex-direction: column;
+    background-color:#FFD0EC;
+}
+#knowledgeFlex{
+    display: flex; 
+}
+.skillType{
+    text-align: center;
+    border-bottom: 1px solid #FFD0EC;
+    color: #FFD0EC;
+}
+#financeFlex{
+    display: flex;   
+}
+.skillHead{
+    color: #474F7A
+}
+
+.experiencedSkills{
+    display: flex; 
+    justify-content: center;
+    align-items: center;  
+     padding:0 1rem 1rem 1rem ;
+     gap: 0.5rem;
+     flex-wrap: wrap;
+}
+.skillContainer{  
+    background-color: #474F7A;
+   border-radius: 0.5rem;
+}
+/* Android Devices */
+@media (min-width:320px) and (max-width:768px) {
+    #knowledgeContainer{
+        padding: 0 3rem 1rem 3rem;
+    }
+    #knowledgeFlex{
+        flex-direction: column;
+        
+    }
+    
+    #financeFlex{
+        flex-direction: column;  
+    }
+    .skillType{
+        font-size: 1rem; 
+        padding-top: 0.3rem;
+        padding-bottom: 0.4rem;  
+        margin-left: 2rem;
+        margin-right: 2rem; 
+        
+    }
+   
+    .skills{
+        font-size: 0.8rem;
+       
+    }
+    .skillHead{
+        font-size: 0.9rem;
+        
+    }
+}
+
+/* Laptop and Windows */
+@media (min-width:769px) {
+    .skillContainer{
+        margin-top: -1rem;
+        
+        
+    }
+    #knowledgeContainer{
+       
+        padding-left: 1rem;
+        padding-bottom: 3rem;
+        margin-left: 13%;
+        padding-right: 1.5rem;
+        
+    }
+    #knowledgeFlex{
+        flex-direction: row;
+        gap: 0.5rem;
+        width: 45%;
+    }
+    #financeFlex{
+       flex-direction: row;
+       gap: 0.5rem;
+       width: 45%;
+    }
+    .skillType{
+        font-size: 1rem; 
+        padding-top: 0.3rem;
+        padding-bottom: 0.4rem;  
+        margin-left: 2rem;
+        margin-right: 2rem; 
+        
+    }
+    .skills{
+        font-size: 0.8rem;
+       
+    }
+    .skillHead{
+        font-size: 1rem;
+        
+    }
+   
+}
